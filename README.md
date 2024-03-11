@@ -10,7 +10,7 @@ This project is a mobile to-do application developed using Flutter. It helps use
 
 ## Screenshots
 
-<img src="screenshots/screen1.png" alt="Screenshot" width="300">
+<img src="screenshots/screen1.png" alt="Screenshot" width="200">
 
 ## Installation
 
