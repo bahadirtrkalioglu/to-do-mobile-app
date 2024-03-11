@@ -40,6 +40,5 @@ This project is licensed under the GNU General Public License version 3.0 (GPL-3
     Contributions are welcome! Feel free to submit pull requests.
 
 **Acknowledgements**
-
-    - Built with Flutter.
-    - Thanks to the open-source community for their contributions and support.
+- Built with Flutter.
+- Thanks to the open-source community for their contributions and support.
