@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:to_do_app_repeat/pages/about_page.dart';
 import 'package:to_do_app_repeat/util/my_bottom_sheet.dart';
 
 import '../util/ToDoListItem.dart';
@@ -65,12 +66,20 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.info),
+          onPressed: () {
+            Navigator.push(context, MaterialPageRoute(
+              builder: (context) {
+                return AboutPage();
+              },
+            ));
+          },
+        ),
         elevation: 0,
         title: Text("To Do App"),
         centerTitle: true,
-        actions: [
-          IconButton(onPressed: createNewTask, icon: Icon(Icons.add))
-        ],
+        actions: [IconButton(onPressed: createNewTask, icon: Icon(Icons.add))],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: createNewTask,
